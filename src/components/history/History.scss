@@ -1,0 +1,93 @@
+.history {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+
+    .history__left__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+
+        .history__left__content__group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 32px;
+
+            .history__left__content__group__box {
+                max-width: 298px;
+                width: 100%;
+                height: 302px;
+
+                .history__left__content__group__box__img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .history__left__content__box {
+            max-width: 298px;
+            width: 100%;
+            height: 635px;
+
+            .history__left__content__box {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .history__right__content {
+        width: auto;
+        height: 635px;
+        background: var(--main-bgtwo);
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        padding: 120px 56px;
+
+        .history__right__content__title {
+            font-family: "Urbanist";
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 21.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: var(--secondary-color);
+            margin-bottom: 12px;
+        }
+
+        .history__right__content__descreption {
+            max-width: 398px;
+            font-family: "Righteous";
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 62.4px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: var(--main-color);
+            margin-bottom: 36px;
+        }
+
+        .history__right__content__text {
+            max-width: 398px;
+            font-family: "Urbanist";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28.8px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: var(--main-color);
+        }
+    }
+}

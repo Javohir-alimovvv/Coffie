@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url("./assets/fonts/Urbanist-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Righteous";
+  src: url("./assets/fonts/Righteous-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+  color: inherit;
+}
+
+button {
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    transition: .2s;
+    // border-color: green;
+  }
+}
